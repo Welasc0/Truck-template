@@ -782,6 +782,10 @@ path {
         -ms-flex: 1 1 100%;
             flex: 1 1 100%;
   }
+
+  .header__inner.nav {
+    display: none;
+  }
 }
 @media (max-width: 320px) {
   .ts__slider img {
@@ -795,7 +799,7 @@ path {
   }
 
   .header__inner.contacts {
-    display: none;
+    font-size: 10px;
   }
   .header__main h2 {
     font-size: 14px;

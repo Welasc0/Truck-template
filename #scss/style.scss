@@ -744,6 +744,14 @@ path{
 		flex: 1 1 100%;
 	}
 	//
+
+	//header
+	.header{
+		&__inner.nav{
+			display: none;
+		}
+	}
+	//
 }
 
 @media(max-width: 320px){
@@ -767,7 +775,7 @@ path{
 	//header
 	.header{
 		&__inner.contacts{
-			display: none;
+			font-size: 10px;
 		}
 
 		&__main{
